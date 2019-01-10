@@ -10,12 +10,13 @@
         background-image: url(images/subtle_carbon.png);
 
 }
-.tagline{
+#tagline{
     color:#fff;
+    text-align: center;
+    font-size: 40px;
 }
 .menuBox {
     border: solid 1px;
-    width: 25%;
     text-align: center;
     height: 20%;
     display: inline-block;
