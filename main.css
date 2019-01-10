@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 100%;
+    width:100%;
+    position:absolute;
+        background-image: url(images/subtle_carbon.png);
+
+}
+.tagline{
+    color:#fff;
+}
+.menuBox {
+    border: solid 1px;
+    width: 25%;
+    text-align: center;
+    height: 20%;
+    display: inline-block;
+    border-radius: 29px;
+    cursor: pointer;
+    margin:10px;
+}
+
+div#wrapboxes {
+    text-align: center;
+    padding: 11% 0px;
+}
+div#aboutMe {
+background: radial-gradient(circle, rgba(252,70,107,1) 0%,  rgba(0,0,0,1) 100%);
+}
+
+div#projects {
+background: radial-gradient(circle, rgba(117,247,239,1) 0%,rgba(0,0,0,1) 100%);
+}
+
+div#contact {
+background: radial-gradient(circle, rgba(219,114,242,1) 0%, rgba(0,0,0,1) 100%);
+}
+div#aboutMe:hover {
+background: radial-gradient(circle, rgba(227,7,7) 0%,  rgba(0,0,0,1) 100%);
+}
+
+div#projects:hover {
+background: radial-gradient(circle, rgba(114,242,139) 0%,rgba(0,0,0,1) 100%);
+}
+
+div#contact:hover {
+background: radial-gradient(circle, rgba(247,117,117,1) 0%, rgba(0,0,0,1) 100%);
+}
+.menuBox > h1{
+    color:#fff;
+    margin:0 auto;
+    padding:100px;
+}
+#wrapBoxes{
+    text-align: center;
+}
