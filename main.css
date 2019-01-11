@@ -24,7 +24,9 @@
     cursor: pointer;
     margin:10px;
 }
-
+a{
+color:#000;
+}
 div#wrapboxes {
     text-align: center;
     padding: 11% 0px;
