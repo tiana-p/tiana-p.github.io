@@ -10,7 +10,7 @@
         background-image: url(images/subtle_carbon.png);
 
 }
-#tagline{
+.tagline{
     color:#fff;
     text-align: center;
     font-size: 40px;
@@ -58,4 +58,15 @@ background: radial-gradient(circle, rgba(247,117,117,1) 0%, rgba(0,0,0,1) 100%);
 }
 #wrapBoxes{
     text-align: center;
+}
+
+/*contactUS*/
+div#contactForm {
+    border: solid;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #00c7ff;
+    border-radius: 39px;
+    padding: 60px 90px;
 }
